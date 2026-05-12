@@ -1,0 +1,25 @@
+{
+  "version": "0.7.8",
+  "description": "Universal data gateway — every cloud storage in one app",
+  "homepage": "https://sery.ai",
+  "license": "AGPL-3.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/seryai/sery-link/releases/download/v0.7.8/Sery.Link_0.7.8_x64_en-US.msi",
+      "hash": "b90c585ea0fff5d8ca1d2fcbf12781f95b72d8f64817aea7655d1075585726db"
+    }
+  },
+  "shortcuts": [
+    ["Sery Link.exe", "Sery Link"]
+  ],
+  "checkver": {
+    "github": "https://github.com/seryai/sery-link"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/seryai/sery-link/releases/download/v$version/Sery.Link_$version_x64_en-US.msi"
+      }
+    }
+  }
+}
