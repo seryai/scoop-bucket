@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/seryai/sery-link/releases/download/v0.9.1/Sery.Link_0.9.1_x64_en-US.msi",
-      "hash": "23a4db7a61b248bbfb3d1a785e60b6bbc996457b120e44f6c8b8f722a9e6ff30"
+      "hash": "ea1d9e08d7638ce0ffcbb1418ea8511e861d3fad9453e4355aa5a09df2dbdc35"
     }
   },
   "shortcuts": [
